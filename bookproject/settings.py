@@ -92,7 +92,8 @@ if not DEBUG:
         )
     }
 
-ALLOWED_HOSTs = ['*']
+ALLOWED_HOSTS = ['*']
+#ALLOWED_HOSTS = ["localhost", "127.0.0.1", "bookproject-lpnv.onrender.com"]
 
 
 # Password validation
